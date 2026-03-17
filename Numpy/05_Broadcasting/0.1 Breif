@@ -1,0 +1,8 @@
+Broadcasting allows operations on different sizes
+it is basically applies specific rules to find whether two arrays can be aligned for operations or
+not that are
+rules:
+1.check dimensions
+2.dimension paddig
+3.shape compatibility
+if only these conditions are satisfied then it allows operations otherwise numpy will raise an error
